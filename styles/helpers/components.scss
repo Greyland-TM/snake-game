@@ -1,0 +1,14 @@
+.btn {
+  padding: .6rem 1.6rem;
+  background-color: rgb(12, 117, 9);
+  border: none;
+  border-radius: 3rem;
+  color: white;
+  transition: all .2s ease-out;
+  font-size: 2rem;
+
+  &:hover {
+    transform: translateY(-.5rem);
+    box-shadow: 0 .5rem 1rem rgba(34, 34, 34, 0.787);
+  }
+}

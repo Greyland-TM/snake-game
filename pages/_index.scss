@@ -1,0 +1,41 @@
+.snake {
+  height: 90vh;
+  width: 90vh;
+  background-color: rgb(106, 144, 106);
+  position: relative;
+  border: 5px dashed rgb(22, 22, 22);
+  margin: 5rem auto;
+
+  &__cherry {
+    height: 6rem;
+    width: 6rem;
+    position: absolute;
+    top: 0%;
+    left: 96%;
+  }
+}
+
+.welcome {
+  position: absolute;
+  text-align: center;
+  // top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.snakedot {
+  position: absolute;
+  width: 2%;
+  height: 2%;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+.snakefood {
+  position: absolute;
+  width: 2%;
+  height: 2%;
+  z-index: 1;
+}
